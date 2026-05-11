@@ -78,7 +78,8 @@
 					</excludes>
 				</configuration>
 			</plugin>
-			<plugin>
+			
+			<!-- <plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<executions>
@@ -93,6 +94,7 @@
 								<path>
 									<groupId>org.projectlombok</groupId>
 									<artifactId>lombok</artifactId>
+									<version>1.18.32</version>
 								</path>
 							</annotationProcessorPaths>
 						</configuration>
@@ -108,12 +110,13 @@
 								<path>
 									<groupId>org.projectlombok</groupId>
 									<artifactId>lombok</artifactId>
+									<version>1.18.32</version>
 								</path>
 							</annotationProcessorPaths>
 						</configuration>
 					</execution>
 				</executions>
-			</plugin>
+			</plugin> -->
 		</plugins>
 	</build>
 
